@@ -1,0 +1,26 @@
+.image {
+  background: var(--c-violet);
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+
+  @media (min-width: 750px) {
+    width: 50%;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 2%;
+  }
+
+  &-desktop {
+    filter: opacity(0.5);
+    width: 100%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+
+    @media (min-width: 750px) {
+      height: 100%;
+      border-top-right-radius: 2%;
+      border-top-left-radius: 0%;
+      border-bottom-right-radius: 2%;
+    }
+  }
+}

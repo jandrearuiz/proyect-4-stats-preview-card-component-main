@@ -1,0 +1,32 @@
+.content {
+  background: var(--b-gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
+
+  &__title {
+    margin: 0;
+  
+    &-other {
+      color: var(--c-violet);
+    }
+  }
+  
+  &__description {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  @media (min-width: 750px) {
+    width: 50%;
+    border-top-left-radius: 2%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 2%;
+    justify-content: center;
+  }
+}
+
