@@ -1,7 +1,7 @@
 body {
-  background: var(--b-black);
+  background: var(--bg-black);
   color: var(--c-white);
-  font-family: "Raleway", sans-serif;
+  font-family: var(--f-raleway), sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
